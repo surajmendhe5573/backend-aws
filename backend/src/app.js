@@ -28,7 +28,7 @@ connectDB();
 
 app.use(responseFormatter);
 app.get('/', (req, res) => {
-     res.send('Welcome to the backend server!');
+     res.send('Welcome to the backend server !!!');
 })
 
 app.get('/about', (req, res) => {

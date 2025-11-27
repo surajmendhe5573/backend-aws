@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "  nodemon src/server.js --development",
+    "dev": " nodemon src/server.js --development",
     "start": "node src/server.js --production",
     "cm": "node scripts/createModule.js"
   },
